@@ -1,0 +1,25 @@
+{
+    "name": "markdown",
+    "displayName": "md-syntax",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "markdown",
+            "aliases": ["markdown", "markdown"],
+            "extensions": [".md",".mdown",".markdown",".markdn"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "markdown",
+            "scopeName": "text.html.markdown",
+            "path": "./syntaxes/markdown.tmLanguage"
+        }]
+    }
+}
